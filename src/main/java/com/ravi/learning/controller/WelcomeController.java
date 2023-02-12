@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WelcomeController {
 
-	
+	// controller page
 	@GetMapping("/")
 	public String GetMessage() {
 		return"<h1> Welcome to spring security home</h1>";
