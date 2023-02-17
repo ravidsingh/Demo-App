@@ -16,7 +16,7 @@ public class WelcomeController {
 	public String GetAdmin() {
 		return"<h1> Welcome to spring security Admin</h1>";
 	}
-	
+	//for user endpoint
 	@GetMapping("/user")
 	public String GetUser() {
 		return"<h1> Welcome to spring security User</h1>";
