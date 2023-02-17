@@ -11,7 +11,7 @@ public class WelcomeController {
 	public String GetMessage() {
 		return"<h1> Welcome to spring security home</h1>";
 	}
-	
+	// for admin
 	@GetMapping("/admin")
 	public String GetAdmin() {
 		return"<h1> Welcome to spring security Admin</h1>";
